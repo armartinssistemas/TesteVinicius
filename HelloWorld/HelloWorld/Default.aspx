@@ -10,6 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label ID="lblMSG" runat="server"></asp:Label>
+            <br />
+            <asp:Button ID="btnHello" runat="server" Text="Clique aqui" />
         </div>
     </form>
 </body>
